@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
+        integral_cf : ['Integral_cf' , 'sans-serif']
       },
     },
   },

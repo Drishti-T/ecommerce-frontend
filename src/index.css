@@ -7,4 +7,10 @@
     src: url('/font/Satoshi-Light.woff2') format('woff2');
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Integral_cf';
+    src: url('/font/IntegralCF-Heavy.woff2') format('woff2');
+    font-style: normal
+  }
   
