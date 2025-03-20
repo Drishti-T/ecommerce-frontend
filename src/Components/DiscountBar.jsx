@@ -4,10 +4,8 @@ import { Link } from "react-router-dom"
 export const DiscountBar = () => {
 
     const [visible, setVisible] = useState(true); // initially visible
-
     // if visible is false return null
     if (!visible) return null;
-
     // if visible is true then return this below
     return <div className="w-screen flex bg-black text-white py-2 text-xs text-center justify-center items-center">
         <div className="font-satoshi">
@@ -18,4 +16,5 @@ export const DiscountBar = () => {
         }}>×</button>
     </div>
 }
+
 
