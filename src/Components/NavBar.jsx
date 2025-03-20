@@ -14,7 +14,7 @@ export const NavBar = () => {
         return () => window.removeEventListener("resize", handleResize);
     })
 
-    return <div className="w-screen bg-white flex  px-4 sm:px-20 py-4 justify-between  ">
+    return <div className="w-full bg-white flex  px-4 sm:px-28 py-4 justify-between ">
 
         {/* left */}
         <div className="flex gap-6 items-center ">
