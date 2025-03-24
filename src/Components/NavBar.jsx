@@ -2,19 +2,19 @@ import { useEffect, useState } from "react"
 
 export const NavBar = () => {
 
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 640) // width less than sm
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768) // width less than sm
 
     
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth < 640)
+            setIsMobile(window.innerWidth < 768)
         };
 
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     })
 
-    return <div className="w-full bg-white flex  px-4 sm:px-28 py-4 justify-between ">
+    return <div className="w-full bg-white flex px-4 md:px-28 py-4 justify-between ">
 
         {/* left */}
         <div className="flex gap-6 items-center ">

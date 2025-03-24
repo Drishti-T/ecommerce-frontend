@@ -11,6 +11,9 @@ export default {
         integral_cf : ['Integral_cf' , 'sans-serif'],
         satoshi_bold : ['Satoshi_Bold' , 'sans-serif']
       },
+      screens : {
+        'xs' : '418px' , // smaller then sm
+      }
     },
   },
   plugins: [],
