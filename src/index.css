@@ -21,6 +21,13 @@
   font-style: bold;
 }
 
+
+@font-face {
+  font-family: 'Satoshi_Medium';
+  src: url('/font/Satoshi-Medium.woff2') format('woff2');
+  font-style: bold;
+}
+
 @media (max-width: 639px) and (min-width : 419px) {
   .border-styling {
     /* Matches Tailwind's `border-r-2` */
