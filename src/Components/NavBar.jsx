@@ -42,9 +42,7 @@ export const NavBar = () => {
                 <div className="h-5 w-5 ">
                     <img src="/svg/search.svg" alt="search" className="scale-110"></img>
                 </div>
-
             )}
-
 
             <div className="h-5 w-5 ">
                 <img src="/svg/cart.svg" alt="cart" className="h-full w-full"></img>

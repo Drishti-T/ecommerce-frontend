@@ -10,7 +10,7 @@ export default {
         satoshi: ['Satoshi', 'sans-serif'],
         integral_cf : ['Integral_cf' , 'sans-serif'],
         satoshi_bold : ['Satoshi_Bold' , 'sans-serif'],
-        satoshi_medium : ['Satoshi_Medium' , 'sans-serif']
+        satoshi_medium : ['Satoshi_Medium' , 'sans-serif'],
 
       },
       screens : {
