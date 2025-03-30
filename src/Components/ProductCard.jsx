@@ -2,6 +2,7 @@ import axios from "axios";
 
 
 
+
 export const ProductCard = ({product}) => {
     return <div>
         <div className="flex flex-col">
@@ -12,7 +13,7 @@ export const ProductCard = ({product}) => {
 
             <div>
                 <div className="font-satoshi_bold  text-xl ">
-                    T-shirt with Tape Details
+                    {product.name}
                 </div>
                 <div className="flex gap-2 items-center">
                     <div>
@@ -29,3 +30,4 @@ export const ProductCard = ({product}) => {
         </div>
     </div>
 }
+

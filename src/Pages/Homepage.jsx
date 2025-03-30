@@ -14,7 +14,12 @@ export const Homepage = () => {
         <Hero></Hero>
         <Brands></Brands>
         <Heading text={"NEW ARRIVALS"}></Heading>
-        {/* <ProductCard></ProductCard> */}
+        <ProductCard product={product}></ProductCard>
         <BottomBar></BottomBar>
     </div>
+}
+
+const product = {
+    "name" : "T-shirt with Tape Details",
+    "image" : "/images/products/Frame32.png"
 }
