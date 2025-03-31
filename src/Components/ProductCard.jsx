@@ -1,33 +1,23 @@
-import axios from "axios";
+
+import { getCurrencySymbol } from "../utils/getCurrencySymbol";
 
 
+export const ProductCard = ({products}) => {
 
+    
+    return (
+                <div className="flex flex-row gap-4">
+                    {products.data.map((product) => (
 
-export const ProductCard = ({product}) => {
-    return <div>
-        <div className="flex flex-col">
-
-            <div>
-                <img src={product.image} alt={product.name}></img>
-            </div>
-
-            <div>
-                <div className="font-satoshi_bold  text-xl ">
-                    {product.name}
+                        
+                        <div key={product.id}>
+                            <img src={product.image}></img>
+                            <div className="font-satoshi_bold  text-base">{product.name}</div>
+                            <div className="font-satoshi_medium text-sm">{product.brand}</div>
+                            <div className="font-satoshi text-xs flex">⭐⭐⭐⭐ {product.rating}<div className="text-gray-500">/5</div></div>
+                            <div className="font-satoshi_bold  text-lg">{getCurrencySymbol(product.currency)}{product.price}</div>
+                        </div>
+                    ))}
                 </div>
-                <div className="flex gap-2 items-center">
-                    <div>
-                        Stars 
-                    </div>
-                    <div className="font-satoshi text-sm">
-                        4.5/5
-                    </div>
-                </div>
-                <div className="font-satoshi_bold  text-2xl ">
-                    $120
-                </div>
-            </div>
-        </div>
-    </div>
+            );
 }
-

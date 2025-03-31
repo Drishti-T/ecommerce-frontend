@@ -1,6 +1,6 @@
 import { BasicButton } from "./BasicButton";
 
-export const Hero = () => {
+export const HeroSection = () => {
     return <div>
         <div className="relative w-full lg:h-screen flex justify-center lg:justify-normal">
 
