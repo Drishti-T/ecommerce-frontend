@@ -5,7 +5,7 @@ import { Heading } from "../Components/Heading"
 import { HeroSection } from "../Components/HeroSection"
 import { NavBar } from "../Components/NavBar"
 import { ProductCard } from "../Components/ProductCard"
-import products from "../testingFiles/products.js"
+import products from "../dummyData/products.js"
 export const Homepage = () => {
 
     return <div>
