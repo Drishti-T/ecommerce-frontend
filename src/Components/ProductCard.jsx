@@ -1,6 +1,5 @@
 
 import { getCurrencySymbol } from "../utils/getCurrencySymbol";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
 
 export const ProductCard = ({products}) => {    
