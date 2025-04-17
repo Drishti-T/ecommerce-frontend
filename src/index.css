@@ -13,6 +13,21 @@
   src: url('/font/IntegralCF-Heavy.woff2') format('woff2');
   font-style: normal;
 }
+@font-face {
+  font-family: 'Integral_cf_regular';
+  src: url('/font/IntegralCF-Regular.woff2') format('woff2');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Integral_cf_medium';
+  src: url('/font/IntegralCF-Medium.woff2') format('woff2');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Integral_cf_bold';
+  src: url('/font/IntegralCF-Bold.woff2') format('woff2');
+  font-style: normal;
+}
 
 
 @font-face {

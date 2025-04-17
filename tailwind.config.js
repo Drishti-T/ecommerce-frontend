@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
         integral_cf : ['Integral_cf' , 'sans-serif'],
+        integral_cf_regular : ['Integral_cf_regular' , 'sans-serif'],
+        integral_cf_medium : ['Integral_cf_medium' , 'sans-serif'],
+        integral_cf_bold : ['Integral_cf_bold' , 'sans-serif'],
         satoshi_bold : ['Satoshi_Bold' , 'sans-serif'],
         satoshi_medium : ['Satoshi_Medium' , 'sans-serif'],
 
