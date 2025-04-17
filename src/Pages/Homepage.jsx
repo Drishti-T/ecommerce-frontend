@@ -1,5 +1,6 @@
 import { BottomBar } from "../Components/BottomBar"
 import { Brands } from "../Components/Brands"
+import { BrowseByStyle } from "../Components/BrowseByStyle.jsx"
 import { DiscountBar } from "../Components/DiscountBar"
 import { Heading } from "../Components/Heading"
 import { HeroSection } from "../Components/HeroSection"
@@ -16,6 +17,7 @@ export const Homepage = () => {
         <Brands></Brands>
         <Heading text={"NEW ARRIVALS"}></Heading>
         <ProductCard products={products}></ProductCard>
+        <BrowseByStyle></BrowseByStyle>
         <StayUpToDate></StayUpToDate>
         <BottomBar></BottomBar>
     </div>
