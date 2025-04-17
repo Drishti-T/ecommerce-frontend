@@ -11,14 +11,13 @@ export const BrowseByStyle = ({ }) => {
             return "xl:col-span-3"
         }
     }
-
-   
+  
 
 // stone-100 default
 
-    return <div className="xs:bg-black sm:bg-pink-200 md:bg-green-200 lg:bg-purple-500 bg-yellow-400 xl:bg-blue-400 rounded-[3rem] px-4 xl:py-6 xl:px-20 mx-4 xl:mx-28 xl:pt-16">
-        <div className="text-center text-3xl flex justify-center font-integral_cf 
-         xl:text-5xl xl:pb-16 ">BROWSE BY DRESS STYLE</div>
+    return <div className="xs:bg-gray-500 sm:bg-pink-200 md:bg-green-200 lg:bg-purple-500 bg-yellow-400 xl:bg-blue-400 rounded-2xl xl:rounded-[3rem] px-4 xl:py-6 xl:px-20 mx-4 xl:mx-28 xl:pt-16 flex flex-col items-center lg:px-8 lg:mx-10">
+        <div className="text-center text-3xl flex justify-center font-integral_cf_bold
+         xl:text-5xl pt-10 pb-8 xl:pb-16  bg-pink-400 max-w-[300px] sm:max-w-none">BROWSE BY DRESS STYLE</div>
         <div className="grid xl:grid-rows xl:auto-rows-fr sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 h-fit justify-center w-full">
             {styles.data.map((style, index) => {
                 const span = colSpan(index);
