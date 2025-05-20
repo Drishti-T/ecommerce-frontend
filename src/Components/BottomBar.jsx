@@ -15,10 +15,14 @@ export const BottomBar = () => {
                 <div className="font-integral_cf text-3xl flex justify ">SHOP.CO</div>
                 <div className="font-satoshi text-[0.82rem] text-gray-700 lg:">We have clothes that suits your style and which you're proud to wear. From women to men.</div>
                 <div className="flex gap-3 pt-2 lg:pt-6 ">
-                    <div className="border border-gray-400  bg-white rounded-full w-[25px] h-[25px] flex justify-center items-center"><img src="/images/logo/icons8-twitter-bird.svg" className="w-[15px] h-[15px]"></img></div>
-                    <div className=" border border-black bg-black rounded-full w-[25px] h-[25px] flex justify-center items-center"><img src="/images/logo/icons8-facebook-logo.svg" className="w-[15px] h-[15px]"></img></div>
-                    <div className="border border-gray-400  bg-white rounded-full w-[25px] h-[25px] flex justify-center items-center"><img src="/images/logo/icons8-instagram.svg" className="w-[15px] h-[15px]"></img></div>
-                    <div className=" border border-gray-400  bg-white rounded-full w-[25px] h-[25px] flex justify-center items-center"><img src="/images/logo/icons8-github-logo.svg" className="w-[15px] h-[15px]"></img></div>
+                    <button><div className="border border-gray-400  bg-white 
+                    rounded-full w-[25px] h-[25px] flex justify-center items-center"><img src="/images/logo/icons8-twitter-bird.svg" className="w-[15px] h-[15px]"></img></div></button>
+                     <button><div className=" border border-black bg-black rounded-full 
+                    w-[25px] h-[25px] flex justify-center items-center"><img src="/images/logo/icons8-facebook-logo.svg" className="w-[15px] h-[15px]"></img></div></button>
+                     <button><div className="border border-gray-400  bg-white 
+                    rounded-full w-[25px] h-[25px] flex justify-center items-center"><img src="/images/logo/icons8-instagram.svg" className="w-[15px] h-[15px]"></img></div></button>
+                     <button><div className=" border border-gray-400  bg-white 
+                    rounded-full w-[25px] h-[25px] flex justify-center items-center"><img src="/images/logo/icons8-github-logo.svg" className="w-[15px] h-[15px]"></img></div></button>
                 </div>
             </div>
 
@@ -44,7 +48,8 @@ export const BottomBar = () => {
 
             <div className="w-[150px] flex flex-col gap-3">
                 <div className="font-satoshi_medium text-xs tracking-[0.2rem] lg:text-sm lg:pt-3">FAQ</div>
-                <div className="text-[0.82rem] lg:text-[0.85rem] text-gray-500 flex flex-col gap-2 lg:gap-4">
+                <div className="text-[0.82rem] lg:text-[0.85rem] text-gray-500 
+                flex flex-col gap-2 lg:gap-4">
                     <div>Account</div>
                     <div>Manage Deliveries</div>
                     <div>Orders</div>
@@ -54,7 +59,8 @@ export const BottomBar = () => {
 
             <div className="w-[160px] flex flex-col gap-3">
                 <div className="font-satoshi_medium text-xs tracking-[0.2rem] lg:text-sm lg:pt-3">RESOURCES</div>
-                <div className="text-[0.82rem] lg:text-[0.85rem] text-gray-500 flex flex-col gap-2 lg:gap-4">
+                <div className="text-[0.82rem] lg:text-[0.85rem] text-gray-500 
+                flex flex-col gap-2 lg:gap-4">
                     <div>Free eBook</div>
                     <div>Development Tutorial</div>
                     <div>How to - Blog</div>
@@ -66,12 +72,12 @@ export const BottomBar = () => {
         <div className="pb-20 flex flex-col lg:flex-row items-center gap-2 border-t border-gray-300 pt-4 lg:justify-between">
             <div className="text-[0.82rem] text-gray-500">Shop.co C 2000-2025, All Rights Reserved</div>
             <div className="flex gap-4 ">
-                <PayCards image={visa}></PayCards>
-                <PayCards image={Mastercard}></PayCards>
-                <PayCards image={paypal}></PayCards>
-                <PayCards image={applePay}></PayCards>
-                <PayCards image={gPay}></PayCards>
-                
+                <button><PayCards image={visa}></PayCards></button>
+                <button><PayCards image={Mastercard}></PayCards></button>
+                <button><PayCards image={paypal}></PayCards></button>
+                <button><PayCards image={applePay}></PayCards></button>
+                <button><PayCards image={gPay}></PayCards></button>
+
             </div>
         </div>
     </div>

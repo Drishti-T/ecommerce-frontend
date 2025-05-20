@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* _______________________________________________________________________________________________ */
+/* Remove default margin and padding from all elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* _______________________________________________________________________________________________ */
+/* custom fonts */
+
 @font-face {
   font-family: 'Satoshi';
   src: url('/font/Satoshi-Light.woff2') format('woff2');
@@ -13,16 +27,19 @@
   src: url('/font/IntegralCF-Heavy.woff2') format('woff2');
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Integral_cf_regular';
   src: url('/font/IntegralCF-Regular.woff2') format('woff2');
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Integral_cf_medium';
   src: url('/font/IntegralCF-Medium.woff2') format('woff2');
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Integral_cf_bold';
   src: url('/font/IntegralCF-Bold.woff2') format('woff2');
@@ -43,6 +60,10 @@
   font-style: bold;
 }
 
+/* _______________________________________________________________________________________________ */
+/* custom media queries */
+
+
 @media (max-width: 639px) and (min-width : 419px) {
   .border-styling {
     /* Matches Tailwind's `border-r-2` */
@@ -55,4 +76,24 @@
     padding-right: 1.25rem;
 
   }
+}
+
+@media (min-width: 1380px) {
+  .hero-section-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 800px;
+    z-index: 0;
+    height: 100%;
+    justify-content: center;
+    background-color: #F2F0F1;
+  }
+
+  .hero-section-main-div {
+ display: flex;
+  align-items: flex-start;
+  }
+
 }

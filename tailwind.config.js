@@ -18,6 +18,7 @@ export default {
       },
       screens : {
         'xs' : '418px' , // smaller then sm
+        'sm_md' : '800px' , // smaller then md larger than sm
       }
     },
   },
