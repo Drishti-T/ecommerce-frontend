@@ -20,7 +20,7 @@ export const NavBar = () => {
         <div className="flex gap-6 items-center ">
 
             {isMobile && (
-                <div className="h-6 w-6">
+                <div className="h-6 w-6 hover">
                     <img
                         src="/svg/menu_lines.svg"
                         alt="hamburger_menu"

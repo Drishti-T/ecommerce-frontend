@@ -79,6 +79,39 @@
         "rating": 4.7,
         "brand": "Calvin Klein"
       },
+      {
+        "id": "PROD001",
+        "name": "Skinny Fit jeans",
+        "image": "/images/products/Frame33.png",
+        "currency" : "USD",
+        "price": 240.99,
+        "discountPrice": 39.99,
+        "discountValue" : 20,
+        "rating": 4.7,
+        "brand": "Calvin Klein"
+      },
+      {
+        "id": "PROD001",
+        "name": "Skinny Fit jeans",
+        "image": "/images/products/Frame33.png",
+        "currency" : "USD",
+        "price": 240.99,
+        "discountPrice": 39.99,
+        "discountValue" : 20,
+        "rating": 4.7,
+        "brand": "Calvin Klein"
+      },
+      {
+        "id": "PROD001",
+        "name": "Skinny Fit jeans",
+        "image": "/images/products/Frame33.png",
+        "currency" : "USD",
+        "price": 240.99,
+        "discountPrice": 39.99,
+        "discountValue" : 20,
+        "rating": 4.7,
+        "brand": "Calvin Klein"
+      },
     
       
       

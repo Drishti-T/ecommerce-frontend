@@ -92,8 +92,33 @@
   }
 
   .hero-section-main-div {
- display: flex;
-  align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
   }
 
 }
+
+@media (min-width: 520px) {
+  .hero-section-customerCount {
+
+    display: flex;
+    flex-direction: row
+  }
+
+  .hero-section-hidden-text {
+    display: block;
+  }
+
+  .custom-section {
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  .hero-section-text {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+}
+

@@ -53,41 +53,44 @@ import { BasicButton } from "./BasicButton";
 //         </div>
 //     </div>
 // };
-
+// 
 export const HeroSection = () => {
-    return <div className="hero-section-main-div flex flex-col lg:flex items-center  bg-[#F2F0F1] px-4 md:px-28 relative transition-all duration-300 ease-in-out">
+    return <div className=" bg-[#F2F0F1]"> 
+    <div className="2xl:max-w-[1660px] 2xl:mx-auto">
+    <div className="hero-section-main-div flex flex-col lg:flex items-center  px-4 md:px-28    relative transition-all duration-300 ease-in-out">
 
         {/* text area */}
-        <div className=" flex flex-col gap-4 mt-[100px] 
+        <div className=" flex flex-col gap-4 sm:mt-[100px] 
         mb-[100px] ">
-            <div className="font-integral_cf text-4xl sm:text-6xl lg:text-7xl sm:max-w-xl lg:max-w-2xl z-10 transition-all duration-500 ease-in-out">FIND CLOTHES THAT MATCHES YOUR STYLE</div>
-            <div className="font-satoshi text-gray-500 text-xs tracking-wider md:max-w-md">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</div>
-            <div className="  flex w-full justify-center sm:justify-center xs:justify-normal md:justify-normal"><BasicButton
+            <div className="font-integral_cf text-4xl sm:text-6xl lg:text-7xl sm:max-w-xl lg:max-w-2xl z-10 transition-all duration-500 ease-in-out max-w-sm">FIND CLOTHES THAT MATCHES YOUR STYLE</div>
+            <div className=" font-satoshi text-gray-500 text-xs sm:text-sm tracking-wider  sm:max-w-[530px] max-w-[350px]">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</div>
+            <div className="flex w-full "><BasicButton
                      bg={"bg-black"}
                      textcolor={"text-white"}
                      py={"py-4"}
                     px={"xs:px-20"}
-                     w={"w-full xs:w-auto"}></BasicButton></div>
-            <div className="flex px-8 flex-col items-center gap-4 sm:flex-row">
+                     w={"w-full sm:w-[auto]"}></BasicButton></div>
+            <div className=" flex  flex-col items-center gap-4 hero-section-customerCount">
                 <div className="flex gap-4">
                     <div className="w-fit 0 flex  flex-col ">
-                        <div className="font-satoshi_bold text-2xl">200+</div>
+                        <div className="font-satoshi_bold text-2xl hero-section-text">200+</div>
                         <div className="font-satoshi text-xs tracking-wider text-gray-700 xs:whitespace-nowrap">International Brands</div>
                     </div>
 
                     <div className="w-px bg-gray-400 mx-auto"></div>
 
                     <div className="flex  flex-col l">
-                        <div className="font-satoshi_bold text-2xl">2000+</div>
+                        <div className="font-satoshi_bold text-2xl hero-section-text">2000+</div>
                         <div className="font-satoshi text-xs tracking-wider text-gray-700 xs:whitespace-nowrap">Highly-Quality Products</div>
                     </div>
+                    <div className="hidden hero-section-hidden-text w-px bg-gray-400 mx-auto"></div>
                 </div>
 
 
 
                 <div className="">
                     <div className="flex flex-col">
-                        <div className="font-satoshi_bold text-2xl">30,000+</div>
+                        <div className="font-satoshi_bold text-2xl hero-section-text">30,000+</div>
                         <div className="font-satoshi text-xs tracking-wider text-gray-700 xs:whitespace-nowrap">Happy Customers</div>
                     </div>
                 </div>
@@ -101,6 +104,8 @@ export const HeroSection = () => {
         <div className="hero-section-image ">
             <img src="/images/coverphoto3.webp"></img>
         </div>
+    </div>
+    </div>
     </div>
 
 };
